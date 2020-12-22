@@ -1,0 +1,52 @@
+body {
+    background-color: aqua;
+}
+.kartu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: transparent;
+}
+
+.card {
+    padding: 20px;
+}
+.kartu1 {
+    padding-right: 8em;
+}
+/*-----------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 400px) {
+    .kartu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: transparent;
+    }
+    .card {
+        padding: 0;
+    }
+    .kartu1 {
+        padding: 0;
+        padding-bottom: 2em;
+    }
+}
+@media screen and (max-width: 411px) {
+    .kartu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: transparent;
+    }
+    .card {
+        padding: 0;
+    }
+    .kartu1 {
+        padding: 0;
+        padding-bottom: 2em;
+    }
+}
